@@ -1,14 +1,21 @@
+<script setup>
+
+import { useI18n } from "vue-i18n";
+
+const { locale } = useI18n({ useScope: 'global' })
+const switchLang = () => {
+  locale.value === 'en' ? locale.value = 'uk' : locale.value = 'en';
+  localStorage.setItem('lang', locale.value)
+}
+</script>
+
 <template>
-  <div class="lang">
+  <div class="lang" @click="switchLang">
     <div class="lang__item">{{ $t('right-menu.en') }}</div>
     /
     <div class="lang__item">{{ $t('right-menu.uk') }}</div>
   </div>
 </template>
-
-<script setup>
-
-</script>
 
 <style lang="scss" scoped>
 .lang {
