@@ -13,8 +13,8 @@ const handleToggle = () => {
 </script>
 
 <template>
-  <UIButton v-if="!change" icon="moon" @click="handleToggle"/>
-  <UIButton v-else icon="sun" @click="handleToggle"/>
+  <UIButton v-if="!change" icon="sun" @click="handleToggle"/>
+  <UIButton v-else icon="moon" @click="handleToggle"/>
 </template>
 
 <style lang="scss" scoped>

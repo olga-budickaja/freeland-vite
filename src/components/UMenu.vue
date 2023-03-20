@@ -3,14 +3,14 @@
  import UIList from "@/components/UI/UIList.vue";
 
  const links = ref([
-   {name: 'Home', link: '/'},
-   {name: 'Categories', link: '/categories', drop: 'drop'},
+   {name: 'home', link: '/'},
+   {name: 'categories', link: '/categories', drop: 'drop'},
  ]);
 
  const linksDrop = ref([
-   {name: 'Discover', link: '/discover'},
-   {name: 'Animation', link: '/animation'},
-   {name: 'UI', link: '/ui'},
+   {name: 'discover', link: '/discover'},
+   {name: 'animation', link: '/animation'},
+   {name: 'ui', link: '/ui'},
  ]);
 </script>
 

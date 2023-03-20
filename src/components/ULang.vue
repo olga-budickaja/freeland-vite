@@ -1,8 +1,8 @@
 <template>
   <div class="lang">
-    <div class="lang__item">en</div>
+    <div class="lang__item">{{ $t('right-menu.en') }}</div>
     /
-    <div class="lang__item">uk</div>
+    <div class="lang__item">{{ $t('right-menu.uk') }}</div>
   </div>
 </template>
 

@@ -3,6 +3,9 @@ import UHeader from "@/components/layout/UHeader.vue";
 import USidebar from "@/components/layout/USidebar.vue";
 import { ref } from "vue";
 import { currentTheme } from "@/composables/changeTheme.js";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n({ useScope: 'global' });
 
 currentTheme();
 const isOpenMenu = ref(false);

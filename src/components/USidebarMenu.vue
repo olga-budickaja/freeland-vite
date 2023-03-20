@@ -3,14 +3,14 @@ import { ref } from "vue";
 import UIList from "@/components/UI/UIList.vue";
 
 const links = ref([
-  {name: 'Home', link: '/'},
-  {name: 'Categories', link: '/categories', sub: 'sub'},
+  {name: 'home', link: '/'},
+  {name: 'categories', link: '/categories', sub: 'sub'},
 ]);
 
 const subLinks = ref([
-  {name: 'Discover', link: '/discover'},
-  {name: 'Animation', link: '/animation'},
-  {name: 'UI', link: '/ui'},
+  {name: 'discover', link: '/discover'},
+  {name: 'animation', link: '/animation'},
+  {name: 'ui', link: '/ui'},
 ]);
 
 </script>

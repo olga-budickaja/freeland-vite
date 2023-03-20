@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <UIButton class="login__animate" label="Log in" outlined rounded color="blue"/>
+    <UIButton class="login__animate" :label="$t('right-menu.login')" outlined rounded color="blue"/>
   </div>
 </template>
 
